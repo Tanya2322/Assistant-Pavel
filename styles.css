@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+
+body {
+    overflow-x: hidden;
+    font-family: "Inter", sans-serif;
+    max-width: 1440px;
+    min-width: 1000px;
+    margin: 10px 55px;
+}
+
+h1 {
+    font-family: "Itim", sans-serif;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 100px;
+    margin: 160px 0 100px;
+}
+
+#read-more-link {
+    border: solid 2px black;
+    padding: 20px 30px;
+    border-radius: 30px;
+    display: inline-block;
+    margin: 200px 550px;
+    color: black;
+    text-decoration: none;
+}
+
+#read-more-link:hover {
+    background-color: black;
+    color: white;
+}
+
+#description {
+    width: 300px;
+    font-size: larger;
+    float: right;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 50px;
+
+}
+
+nav ul {
+    display: inline-block;
+    margin: 0;
+}
+
+nav {
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+
+    width: 1440px;
+    top: 0;
+}
+
+#main-link {
+    font-weight: bolder;
+}
+
+#image {
+    position: absolute;
+    right: 0;
+}
+#photo {
+    position: absolute;
+    left: 0;
+    top: 425px;
+}
+
+#texture {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 810px;
+    object-fit: cover;
+}
+
+h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 80px;
+    margin-top: 5px;
+    
+}
+
+#about-me p {
+    font-size: 25px;
+    width: 600px;
+    float: left;
+    margin: 60px 30px;
+    color: white;
+}
+
+#about-me img {
+    height: 500px;
+    float: right;
+    margin-right: 50px;
+}
+
+#about-me {
+    padding: 10px 30 px;
+}
+
+
+.backround {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+#main .backround {
+    top: 0;
+    background: linear-gradient(#5F5CFF, #00FFCC);
+    height: 810px;
+}
+
+#about-me .backround {
+    top: 810px;
+    background: linear-gradient(#00FFCC, #532C8E);
+    height: 1080px;
+}
+
+#skills .backround {
+    top: 1890px;
+    background: linear-gradient(#532C8E, #AC0608);
+    height: 800px;
+}
+
+#skills figcaption {
+    color: white;
+}
+
+figcaption {
+    font-family: "Ultra", serif;
+    font-size: 80px;
+    margin-top: 5px;
+}
+
+#skills h2 {
+    text-align: right;
+    margin-top: 700px;
+}
+
+#skills figure {
+    display: inline-block;
+    width: 300px;
+    margin: 60px;
+    margin-right: 70px;
+}
+
+#skills figure img {
+    height: 250px;
+    margin-bottom: 80px;
+}
+
+#skills figure figcaption {
+    font-size: 25px;
+}
+
+#progect .backround{
+    top: 2690;
+    background: linear-gradient(#AC0608, #FFFB00);
+    height: 800px;
+}
+
+#progect p {
+    width: 50%;
+    font-size: 30px;
+    padding-top: 30px;
+    font-family: "Ultra", serif;
+    margin-top: 5px;
+    color: white;
+}
+
+#progect .gallery {
+    float: right;
+    width: 50%;
+
+}
+
+#progect .gallery img {
+    width: 50%;
+    margin-bottom: 30px;
+    padding-left: 70px;
+}
+
+#progect {
+    padding-top: 100px;
+}
+
+#progect h2 {
+    color: #5E86FF;
+}
+
+#how h2 {
+    color: #5E86FF;
+    text-align: left;
+    padding-top: 100px;
+}
+
+#how .backround{
+    top: 3490;
+    background: linear-gradient(#FFFB00, #00CCFF);
+    height: 800px;
+}
+
+#how {
+    color: #FF0000;
+    padding: 100px, 10px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+#how ol {
+    font-size: 25px;
+    list-style-type: none;
+    counter-reset: num;
+}
+
+#how ol li {
+    position: relative;
+    margin: 0;
+    padding: 0 0 25px 80px;
+}
+
+#how ol li:nth-child(even) {
+    right: -45%;
+}
+
+#how ol li:before{
+    font-family: "Ultra", serif;
+    content: counter(num);
+    counter-increment: num;
+
+    border: 15px solid #FF0000;
+    border-radius: 50%;
+
+    position: absolute;
+    width: 90px;
+    height: 90px;
+
+    left: -40px;
+
+    font-size: 60px;
+    font-weight: bold;
+
+    text-align: center;
+    line-height: 90px;
+}
+
+#how img {
+    position: absolute;
+    height: 400px;
+    margin-left: 900px;
+
+}
+
+#plans h2 {
+    color: white;
+    text-align: left;
+    margin-top: 250px;
+}
+
+#plans img {
+    height: 700px;
+    margin-left: 50px;
+}
+
+#plans p {
+    font-size: 40px;
+    width: 50%;
+    float: right;
+    margin: 60px 30px;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+}
+
+
+#plans .backround {
+    top: 4290px;
+    background: linear-gradient(#00CCFF, #221F87);
+    height: 950px;
+}
+
+#thanks .backround {
+    top: 5240px;
+    background: linear-gradient(#221F87, black);
+    height: 800px;
+}
+#thanks {
+    color: white;
+}
+
+#thanks h2 {
+    margin-top: 100px;
+}
+
+#thanks p {
+    font-size: 40px;
+    width: 50%;
+    float: left;
+    margin: 60px 30px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+#thanks a {
+    font-family: "Uchen", serif;
+    font-size: 40px;
+    float: right;
+    margin-top: 400px;
+}
+
+#thanks img {
+    position: absolute;
+    margin-left: 100px;
+    height: 400px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#thanks a {
+    color: white;
+    text-decoration: none;
+}
+
+#thanks a:hover {
+    text-decoration: underline;
+}
